@@ -1,58 +1,307 @@
-<!doctype html>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Matt Dubin</title>
+<head>
+	<title>Matthew Dubin</title>
+	<script src="js/jquery.min.js"> </script>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ 	<!---- start-smoth-scrolling---->
+</head>
+<body>
+<!------headerbg starts--------->
+ <div id="top-top" class="headerbg">
+	 <!------header starts--------->
+	   <div class="header">
+		 <!------container starts--------->
+			  <div class="container">
+				   <div class="logo">
+						<a href="Resume.pdf">Resume</a>
+				   </div>
+				  <!------Navigation starts--------->
+				  <div class="nav">
+					 <ul>
+						 <li><a class="scroll" href="#skills">SKILLS</a></li>
+						 <li><a class="scroll" href="#port">PORTFOLIO</a></li>
+						 <li><a class="scroll" href="#about">ABOUT</a></li>
+						 <li><a class="scroll" href="#contact">CONTACT</a></li>
+					 </ul>
+				 </div>
+				  <!------Navigation ends-------->
+					<div class="clear"></div>
+			  </div>
+		 <!------container ends--------->
+	   </div>
+	 <!------header ends--------->
+	 <!------Banner starts--------->
+	   <div class="banner">
+	      <div class="container">
+		     <div class="banner-info">
+					 <div class="info-group">
+			      <div class="bannerhead">
+				      <h2><span>Matthew Dubin</span></h2>
+				      <h3>Software Engineer</h3>
+			      </div>
+					</div>
+			 </div>
+			 <div class="clear"></div>
+		  </div>
+	  </div>
+	  <!------Banner ends-------->
+ </div>
+ <!------Headerbg ends-------->
+ <!------Content starts--------->
+ <div class="content">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Matthew Dubin</h1>
-        <p>Web Developer</p>
+	 <!---SKILLS Starts--------->
+ 	  <div id="skills" class="skills">
+ 	  <div class="container">
+ 	     <div class="skills-grids">
+ 			  <div class="skill-section text-center">
+ 				  <h2><span> </span>SKILLS<span> </span></h2>
+ 			  </div>
+ 					  <div class="services_grids">
+ 						  <div id="canvas">
+ 								<div class="skill-grids text-center">
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/ruby.png">
+ 												<h3>Ruby</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/rails.png">
+ 												<h3>Rails</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/javascript.png">
+ 												<h3>JavaScript</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/react.png">
+ 												<h3>React</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/flux.png">
+ 												<h3>Flux</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/jquery.png">
+ 												<h3>jQuery</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/git.png">
+ 												<h3>git</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/html.png">
+ 												<h3>HTML5</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/postgresql.png">
+ 												<h3>PostgreSQL</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/css.png">
+ 												<h3>CSS</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/rspec.png">
+ 												<h3>RSpec</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="col-md-3">
+ 											<div class="skill-grid">
+ 												<img src="images/skills/python.png">
+ 												<h3>Python</h3>
+ 											 </div>
+ 										</div>
+ 										<div class="clearfix"> </div>
+ 								  </div>
+ 						   </div>
+ 					  </div>
 
-        <ul>
-          <li><a href="https://github.com/medubin">Go to<strong>Github</strong></a></li>
-          <li><a href="https://linkedin.com/in/medubin">Go to<strong>LinkedIn</strong></a></li>
-          <li><a href="http://dubin.io">Go to <strong>Website</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>Featured Projects</h1>
-        <br>
+ 			 </div>
+ 		 </div>
+ 		   <!-- <a class="down scroll" href="#port"><span> </span></a> -->
+ 	  </div>
+ 	  </div>
+ 	 <!---SKILLS Ends--------->
 
-        <h2>Photostash</h2>
-        <a href="https://photostash.space">live</a> |
-        <a href="https://github.com/medubin/PhotoStashApp">github</a>
-        <img src="images/user-page.jpg" />
-        <p>Photostash is a web application inspired by Instagram and built using Ruby on Rails and React.js.</p>
-        <br>
+	 <div id="port" class="Portfolio">
+			<div class="Portfolio-section text-center">
+					<h2><span> </span>PROJECTS<span> </span></h2>
+			</div>
+			<div class="container">
+				<div class="portfolio-grids">
 
-        <h2>Squirrel Chase</h2>
-        <a href="http://www.squirrelchase.space/">live</a> |
-        <a href="https://github.com/medubin/squirrelchase">github</a>
-        <img src="images/squirrelchase.png" />
-        <p>In Squirrel Chase you play as a dog with an insatiable appetite for acorns, but avoid the angry squirrels who are not happy that you are stealing their hard earned nuts.</p>
-        <br>
 
-        <h2>Asteroids</h2>
-        <a href="http://medubin.github.io/asteroidsJS/">live</a> |
-        <a href="https://github.com/medubin/asteroidsJS">github</a>
-        <img src="images/asteroids.png" />
-        <p>The classic asteroids game recreated for your browser</p>
-        <br>
+					<div class="portfolio-grid col-md-4">
+						<h3><b>Photostash</b></h3>
+						<div class="project">
+							<img src="images/projects/photostash.png"></img>
+							<a href="http://www.photostash.space" class="live">Live</a>
+							<a href="https://www.github.com/medubin/PhotoStashApp" class="github">Github</a>
+						</div>
+						<p>An Instagram inspired photo sharing app (Ruby on Rails, JavaScript, React/Flux).</p>
+					</div>
 
-      <footer>
+					<div class="portfolio-grid col-md-4">
+						<h3><b>Squirrel Chase</b></h3>
+						<div class="project">
+							<img src="images/projects/squirrel_chase.png"></img>
+							<a href="http://www.squirrelchase.space" class="live">Live</a>
+							<a href="https://github.com/medubin/squirrelchase" class="github">Github</a>
+						</div>
+						<p>An acorn grabbing arcade style game(JavaScript, HTML5 Canvas).</p>
+					</div>
 
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
-</html>
+					<div class="portfolio-grid col-md-4">
+						<h3><b>Chess</b></h3>
+						<div class="project">
+							<img src="images/projects/chess.png"></img>
+							<a href="https://github.com/medubin/chess" class="single">Github</a>
+						</div>
+						<p>Console-based 2-player chess game (Ruby).</p>
+					</div>
+
+
+					<div class="clear"> </div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+		 <div class="portfolio-grid col-md-4">
+			 <h3><b>Rails Lite</b></h3>
+			 <div class="project">
+				 <img src="images/projects/rails_lite.png"></img>
+				 <a href="https://www.github.com/medubin/RailsLite" class="single">Github</a>
+			 </div>
+			 <p>A MVC framework inspired by Rails (Ruby).</p>
+		 </div>
+
+
+
+		 <div class="portfolio-grid col-md-4">
+			 <h3><b>Active Record Lite</b></h3>
+			 <div class="project">
+				 <img src="images/projects/active_record_lite.png"></img>
+				 <a href="https://github.com/medubin/ActiveRecordLite" class="single">Github</a>
+			 </div>
+			 <p>An object-relational database accessor modeled Ruby on Rails ActiveRecord (Ruby).</p>
+		 </div>
+
+		 <div class="portfolio-grid col-md-4">
+			 <h3><b>Genetic Linkage</b></h3>
+			 <div class="project">
+				<img src="images/projects/linkage_mapper.png"></img>
+				<a href="http://gbe.oxfordjournals.org/content/7/10/2829" class="live">Paper</a>
+				<a href="https://github.com/medubin/LinkageCalculator" class="github">Github</a>
+			 </div>
+			 <p>Calculates genome wide genetic recombination (Python).</p>
+		 </div>
+
+
+			 <div class="clear"> </div>
+		 </div>
+		 <a class="portdown scroll" href="#contact"><span> </span></a>
+
+	 </div>
+	 <br>
+
+
+
+
+
+<!---Content Ends-------->
+
+	<!------About starts--------->
+	<div id="about" class="about">
+		<div class="container">
+			<div class="header-section text-center">
+				<h2><span> </span>ABOUT<span> </span></h2>
+			</div>
+			<span><p>I am a full stack web developer with proficiency in Ruby on Rails, Javascript and React.js. I have experience developing full stack web apps from conception to deployment. I am well versed in object oriented design patterns, test driven design as well as the design patterns that underlie most major website (Flux, RESTful, MVC, etc.). I am currently seeking employment opportunities in San Francisco and Seattle.</p></span>
+			<br>
+				<!-- <div class="years">
+					<h4><b>2016</b></h4>
+					<span><h4>App Academy</h4></span>
+					<p><i>Intensive 1000+ hour web development course with less than 3% acceptance rate. Course covers Ruby, Rails, SQL, JavaScript, jQuery, React.js and Flux</i></p>
+					</div> -->
+
+		</div>
+	</div>
+	<!------About Ends--------->
+  <!------Content Ends-------->
+
+  <!------FOOTER Starts----------->
+  <div  id="contact" class="footer">
+      <div class="container">
+
+		   <div class="contact-section text-center">
+			  <h2><span> </span>CONTACT<span> </span></h2>
+		  </div>
+		 <div class="row">
+			  <div class="footer-left">
+					<div class="social-icons">
+					   <a href="https://www.linkedin.com/in/medubin/"><img src="images/in.png"></a>
+					   <a href="mailto:medubin@gmail.com"><img src="images/email.png"></a>
+					   <a href="http://github.com/medubin/"><img src="images/github-light.png"></a>
+				   </div>
+				   <p></p>
+			  </div>
+		 </div>
+	 </div>
+	 <span class='credit'>Layout by <a href="http://w3layouts.com">W3Layouts</a></span>
+
+ </div>
+
+ </body>
+ </html>
